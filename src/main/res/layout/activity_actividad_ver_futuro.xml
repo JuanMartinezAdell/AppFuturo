@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#131313"
+    android:backgroundTint="#2B2D30"
+    android:orientation="vertical"
+    app:layoutDescription="@xml/activity_actividad_ver_futuro_scene"
+    tools:context=".ActividadVerFuturo">
+
+    <ImageView
+        android:id="@+id/imgFuturo"
+        android:layout_width="match_parent"
+        android:layout_height="206dp"
+        app:srcCompat="@drawable/acuario" />
+
+    <TextView
+        android:id="@+id/txtFuturo"
+        android:layout_width="match_parent"
+        android:layout_height="360dp"
+        android:text="Aquí saldra tu futuro"
+        android:textColor="#FFFFFF"
+        android:textSize="120px" />
+
+    <Button
+        android:id="@+id/btnVolver"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="volver" />
+</LinearLayout>
